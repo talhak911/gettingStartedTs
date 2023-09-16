@@ -200,5 +200,25 @@ console.log("person is ",person);
 console.log("can person apply if he is male and above 18 i predict true");
 console.log(person.gender=="Male" && person.age>18);
 
+//test whether an item is in array
+
+const arrTest:string[]=["peach","apple","mango"]
+
+let toFind:string="peac"
+let found:boolean=false
+for (let i=0;i<arrTest.length;i++)
+{if (toFind==arrTest[i])
+    {
+        found=true;
+        console.log("item found");
+        break
+    }
+  
+}
+if (found==false){
+    console.log("item not found");
+    
+}
+
 
 
